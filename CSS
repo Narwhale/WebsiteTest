@@ -1,0 +1,26 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+body {
+  width: 100vw; height: 100vh;
+  background: #BADA55;
+  display: table;
+}
+h1 {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5vw;
+  color: #FFF;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  font-smoothing: antialiased;
+  i {
+    padding: 0 15px;
+    border: 2px solid rgba(#FFF,.3);
+    border-radius: 5px;
+    background: rgba(#FFF,.15);
+    display: inline-block;
+    font-weight: 400;
+  }
+}
